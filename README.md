@@ -18,19 +18,16 @@ This project scrapes web pages, extracts content, generates embeddings using BER
 
 ## Usage
 
-1. **Run the Script**:
- ```bash
- python your_script_name.py
- ```
 
-2. **Functionality**:
+
+**Functionality**:
 - **Web Scraping**: The script fetches the main page of `infosys.com/industries/` and extracts the first 30 hyperlinks.
 - **BERT Embedding**: Generates BERT embeddings for the webpage content.
 - **Clustering**: Performs clustering using K-Means and DBSCAN.
 - **Named Entity Recognition (NER)**: Extracts named entities from the summarized text.
 - **Evaluation**: Computes and displays the silhouette scores for the clustering algorithms.
 
-3. **Output**:
+**Output**:
 The script generates a JSON file named `webpage_data_with_clusters.json` containing the clustered data, summaries, and named entities extracted from the content.
 
 ---
